@@ -82,7 +82,7 @@ public class MyPetPlayer implements IScheduler, NBTStorage {
 
     private MyPetPlayer(String playerName) {
         this.playerName = playerName;
-        checkForDonation();
+        //checkForDonation(); // This feature has to be disabled in order to upload it to BukkitDev.
     }
 
     public String getName() {
